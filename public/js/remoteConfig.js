@@ -5,7 +5,7 @@ remoteConfig.settings = {
 remoteConfig.defaultConfig = ({
     'welcome_message': 'Remote Config Default Configuration is on',
     // background images
-    "mainSliderBackgroundImage": `url("images/bg/pexels-cottonbro-4100672.jpg")`,
+    "mainSliderBackgroundImage": `url("images/bg/cefr.jpg")`,
     "secondSliderBackgroundImage": `url("images/bg/pexels-cottonbro-4098224.jpg")`,
     "especialidadesBackgroundImage" : `url("images/bg/pexels-cottonbro-4100663.jpg")`,
     "textosBackgroundImage": `url("images/bg/pexels-prateek-katyal-2740956.jpg")`,

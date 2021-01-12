@@ -34,7 +34,6 @@
   </head>
 
   <body>
-
     <!--=================================
     header -->
     <header class="header">
@@ -62,7 +61,7 @@
             </ul>
           </div>
           <div class="add-listing">
-            <a class="btn btn-primary btn-sm" href="https://wa.me/5521971661511" target="blank" id="main-nav-whatsapp-cta">Entre em contato <i class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-primary btn-sm whatsapp-cta" href="https://wa.me/5521971661511" target="blank">Entre em contato <i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
       </nav>
@@ -104,7 +103,7 @@
                       <h1 class="animated text-white display-6" data-swiper-animation="fadeInUp" data-duration="1.5s" data-delay="0.25s">Consulta online ou presencial com descrição e segurança</h1>
                       <p class="animated lead text-white display-9" data-swiper-animation="fadeInUp" data-duration="1.5s" data-delay="0.25s">Tratamento de condições psicológicas tais como: compulsão alimentar, síndrome do pânico, depressão, dependência química.</p>
                       <p class="animated lead text-white display-9" data-swiper-animation="fadeInUp" data-duration="1.5s" data-delay="0.25s">Emitimos recibos para convênio</p>
-                      <a href="https://wa.me/5521971661511" class="animated4 btn btn-primary mt-2" data-swiper-animation="fadeInUp" data-duration="2.5s" data-delay="0.25s">Agende um horário <span><i class="fab fa-whatsapp"></i></span></a>
+                      <a href="https://wa.me/5521971661511" class="animated4 btn btn-primary mt-2 whatsapp-cta" data-swiper-animation="fadeInUp" data-duration="2.5s" data-delay="0.25s" target="blank">Agende um horário <span><i class="fab fa-whatsapp"></i></span></a>
                     </div>
                   </div>
                 </div>
@@ -252,9 +251,9 @@
             <div class="position-relative px-xl-6">
               <i class="flaticon-call text-primary display-6"></i>
               <h4 class="text-white font-weight-normal mb-5 mt-4">
-                <span class="d-block">Entre em contato pelo telefone <a href="tel:+2197166511" class="text-primary">(21) 97166.1511</a>, </span><span> <a href="mailto:carlos.efr@gmail.com"> pelo nosso email</a></span> <span> ou pelo whatsapp abaixo:</span>
+                <span class="d-block">Entre em contato pelo telefone <a href="tel:+21971661511" class="text-primary direct-phone">(21) 971.661.511</a>, </span><span> <a href="mailto:carlos.efr@gmail.com" class="direct-email"> pelo nosso email</a></span> <span> ou pelo whatsapp abaixo:</span>
               </h4>
-              <a href="https://wa.me/5521971661511" class="btn btn-primary">Agende um horário <span><i class="fab fa-whatsapp"></i></a>
+              <a href="https://wa.me/5521971661511" class="btn btn-primary whatsapp-cta" target="blank">Agende um horário <span><i class="fab fa-whatsapp"></i></a>
             </div>
           </div>
         </div>
@@ -325,7 +324,7 @@
                   <textarea class="form-control" rows="4" placeholder="Sua Mensagem" id="message"></textarea>
                 </div>
                 <div class="col-md-12">
-                  <input type="submit" class="btn btn-primary" value="Enviar">
+                  <input type="submit" class="btn btn-primary form-push" value="Enviar">
                 </input>
                   <!-- <a class="btn btn-primary" href="#">Enviar</a> -->
                 </div>
@@ -468,28 +467,17 @@
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
-      firebase.analytics().logEvent('generate_lead');
-      firebase.analytics().logEvent("select-content",  {
-        content_type: "button",
-        items: [
-          {
-            id : "main-nav-whatsapp-cta",
-            name: "main_nav_whatsapp_button"
-          }
-        ]
-      } )
-
-      // main-nav-whatsapp-cta ID DO BOTÂO
     </script>
 
-    <!-- Initializing remote config for A/B testing purposes -->
+    <!-- Initializing remote config and analytics for A/B testing purposes -->
     <script>
       const remoteConfig = firebase.remoteConfig();
+      const analytics = firebase.analytics()
     </script>
     <script src="js/remoteConfig.js"></script>
+    <script src="js/analytics.js"></script>
 
     
-
     <!-- Template Scripts (DO NOT REMOVE - NÃO REMOVER) -->
     <script src="js/custom.js"></script>
 
