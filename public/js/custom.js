@@ -454,7 +454,8 @@ scrollLinks.forEach(link => {
 
 
     //closing the navbar after the click on the link
-    console.log(navbarShow)
     navbarShow.classList.remove("show")    
   })
 })
+
+

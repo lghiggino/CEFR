@@ -7001,3 +7001,7 @@ button {
   left: 0px;
   background: linear-gradient(90deg, #0279c4 , #0279c4);
 }
+
+.hidden{
+  display: none;
+}

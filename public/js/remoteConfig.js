@@ -9,7 +9,7 @@ remoteConfig.defaultConfig = ({
     "secondSliderBackgroundImage": `url("images/bg/pexels-cottonbro-4098224.jpg")`,
     "especialidadesBackgroundImage" : `url("images/bg/pexels-cottonbro-4100663.jpg")`,
     "textosBackgroundImage": `url("images/bg/pexels-prateek-katyal-2740956.jpg")`,
-
+    "foreignBackgroundImage": `url("images/bg/woman-holding-hands-together-talking-with-counselor.jpg")`,
   });
   
   console.log(remoteConfig.defaultConfig.welcome_message);
@@ -25,9 +25,13 @@ const especialidadesBackgroundImage = document.querySelector("#especialidades");
 especialidadesBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.especialidadesBackgroundImage;
 const textosBackgroundImage = document.querySelector("#textos");
 textosBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.textosBackgroundImage;
+const englishForeignBackgroundImage = document.querySelector("#english");
+englishForeignBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.foreignBackgroundImage;
+const frenchForeignBackgroundImage= document.querySelector("#francais");
+frenchForeignBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.foreignBackgroundImage;
 
 /*  
 Foto de cottonbro no Pexels
 Foto de Prateek Katyal no Pexels
-
+<a href='https://www.freepik.com/photos/health'>Health photo created by freepik - www.freepik.com</a>
 */
