@@ -10,6 +10,7 @@ remoteConfig.defaultConfig = ({
     "especialidadesBackgroundImage" : `url("images/bg/pexels-cottonbro-4100663.jpg")`,
     "textosBackgroundImage": `url("images/bg/pexels-prateek-katyal-2740956.jpg")`,
     "foreignBackgroundImage": `url("images/bg/woman-holding-hands-together-talking-with-counselor.jpg")`,
+    
   });
   
   console.log(remoteConfig.defaultConfig.welcome_message);
