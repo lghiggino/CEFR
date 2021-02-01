@@ -5,12 +5,11 @@ remoteConfig.settings = {
 remoteConfig.defaultConfig = ({
     'welcome_message': 'Remote Config Default Configuration is on',
     // background images
-    "mainSliderBackgroundImage": `url("images/bg/cefr.jpg")`,
+    "mainSliderBackgroundImage": `url("images/bg/IMG_0091flip.jpg")`,
     "secondSliderBackgroundImage": `url("images/bg/pexels-cottonbro-4098224.jpg")`,
     "especialidadesBackgroundImage" : `url("images/bg/pexels-cottonbro-4100663.jpg")`,
     "textosBackgroundImage": `url("images/bg/pexels-prateek-katyal-2740956.jpg")`,
     "foreignBackgroundImage": `url("images/bg/woman-holding-hands-together-talking-with-counselor.jpg")`,
-    
   });
   
   console.log(remoteConfig.defaultConfig.welcome_message);

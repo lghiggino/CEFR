@@ -105,8 +105,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .space-pt {
   padding-top: 100px; }
 
+/* ALTEREI AQUI ABAIXO - era 100px */
 .space-pb {
-  padding-bottom: 100px; }
+  padding-bottom: 0px; }
 
 .space-sm-ptb {
   padding: 70px 0; }
