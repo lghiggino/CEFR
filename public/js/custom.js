@@ -435,7 +435,7 @@ POTENZA.isSticky = function () {
 /*************************
         Smilga Scroll - needs improvements
 *************************/
-const scrollLinks = document.querySelectorAll(".nav-link")
+ const scrollLinks = document.querySelectorAll(".nav-link")
 const navbarShow = document.querySelector(".navbar-collapse");
 scrollLinks.forEach(link => {
   link.addEventListener("click", (e) => {
