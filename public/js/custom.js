@@ -435,24 +435,23 @@ POTENZA.isSticky = function () {
 /*************************
         Smilga Scroll - needs improvements
 *************************/
- const scrollLinks = document.querySelectorAll(".nav-link")
+const scrollLinks = document.querySelectorAll(".nav-link")
 const navbarShow = document.querySelector(".navbar-collapse");
 scrollLinks.forEach(link => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
+    //navigate to specific spot
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.getElementById(id);
-
     const navHeight = document.querySelector(".navbar").getBoundingClientRect().height;
+    console.log(navHeight)
     let position = element.offsetTop - navHeight;
-    position = position - navHeight
+
     window.scrollTo({
       left: 0,
       top: position,
     });
-    position = element.offsetTop;
-
-
+    
     //closing the navbar after the click on the link
     navbarShow.classList.remove("show")    
   })
