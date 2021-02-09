@@ -9,7 +9,7 @@ remoteConfig.defaultConfig = ({
     "secondSliderBackgroundImage": `url("images/bg/pexels-cottonbro-4098224.jpg")`,
     "especialidadesBackgroundImage" : `url("images/bg/IMG_0074_resized-.jpg")`,
     "lacanBackgroundImage" : `url("images/bg/lacan2-1024x702.jpg")`,
-    "textosBackgroundImage": `url("images/bg/pexels-prateek-katyal-2740956.jpg")`,
+    "textosBackgroundImage": `url("images/bg/IMG_0054_resized-.jpg")`,
     "foreignBackgroundImage": `url("images/bg/woman-holding-hands-together-talking-with-counselor.jpg")`,
     "trefoilDivBackgroundImage" : `url("images/bg/Trefoil_knot_arb.png")`,
   });

@@ -651,6 +651,14 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .my-n10 {
   margin-bottom: -14rem !important; }
 
+.mb-n11,
+.my-n11 {
+  margin-bottom: -15rem !important; }
+
+.mb-n12,
+.my-n12 {
+  margin-bottom: -16rem !important; }
+
 .ml-n10,
 .mx-n10 {
   margin-left: -14rem !important; }
@@ -7005,4 +7013,23 @@ button {
 
 .hidden{
   display: none;
+}
+
+
+
+.special-image{
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  top:1rem;
+  left:6rem;
+}
+@media screen and (max-width: 1200px){
+  .special-image{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    top:12rem;
+    left:4rem;
+  }
 }
