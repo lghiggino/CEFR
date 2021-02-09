@@ -4561,7 +4561,7 @@ button {
 
 /* Banner 02 */
 .slider-01 .swiper-slide {
-  height: 800px; }
+  height: 900px; }
   .slider-01 .swiper-slide h1 {
     margin-bottom: 20px; }
   .slider-01 .swiper-slide h5 {
@@ -4807,7 +4807,7 @@ button {
   .banner-overlay-right:before {
     width: 17%; }
   .slider-01 .swiper-slide {
-    height: 700px; }
+    height: 600px; }
   /* home-03 */
   .banner-shape {
     margin-bottom: 30px; }

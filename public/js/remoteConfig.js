@@ -11,6 +11,7 @@ remoteConfig.defaultConfig = ({
     "lacanBackgroundImage" : `url("images/bg/lacan2-1024x702.jpg")`,
     "textosBackgroundImage": `url("images/bg/pexels-prateek-katyal-2740956.jpg")`,
     "foreignBackgroundImage": `url("images/bg/woman-holding-hands-together-talking-with-counselor.jpg")`,
+    "trefoilDivBackgroundImage" : `url("images/bg/Trefoil_knot_arb.png")`,
   });
   
   console.log(remoteConfig.defaultConfig.welcome_message);
@@ -32,6 +33,8 @@ const englishForeignBackgroundImage = document.querySelector("#english");
 englishForeignBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.foreignBackgroundImage;
 const frenchForeignBackgroundImage= document.querySelector("#francais");
 frenchForeignBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.foreignBackgroundImage;
+const trefoilDivBackgroundImage = document.querySelector("#trefoil-div");
+trefoilDivBackgroundImage.style.backgroundImage = remoteConfig.defaultConfig.trefoilDivBackgroundImage;
 
 /*  
 Foto de cottonbro no Pexels
