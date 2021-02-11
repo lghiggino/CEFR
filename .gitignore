@@ -66,3 +66,4 @@ node_modules/
 .env
 descartes/clear-bg-img/Untitled.xcf
 public/images/bg/profile-img.xcf
+public/.vscode/settings.json
