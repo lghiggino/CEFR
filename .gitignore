@@ -65,3 +65,4 @@ node_modules/
 # dotenv environment variables file
 .env
 descartes/clear-bg-img/Untitled.xcf
+public/images/bg/profile-img.xcf
