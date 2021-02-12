@@ -18,12 +18,12 @@ remoteConfig.settings = {
     'welcome_message': 'Remote Config Default Configuration is on',
     // background images
     "mainSliderBackgroundImage": `url("images/bg/webP/IMG_0046_resized-.webp")`,
-    "secondSliderBackgroundImage": `url("images/bg/webP//pexels-cottonbro-4098224.webp")`,
-    "especialidadesBackgroundImage" : `url("images/bg/webP//IMG_0074_resized-.webp")`,
-    "lacanBackgroundImage" : `url("images/bg/webP//lacan2-1024x702.webp")`,
-    "textosBackgroundImage": `url("images/bg/webP//IMG_0054_resized-.webp")`,
-    "foreignBackgroundImage": `url("images/bg/webP//woman-holding-hands-together-talking-with-counselor.webp")`,
-    "trefoilDivBackgroundImage" : `url("images/bg/webP//Trefoil_knot_arb.webp")`,
+    "secondSliderBackgroundImage": `url("images/bg/webP/pexels-cottonbro-4098224.webp")`,
+    "especialidadesBackgroundImage" : `url("images/bg/webP/IMG_0074_resized-.webp")`,
+    "lacanBackgroundImage" : `url("images/bg/webP/lacan2-1024x702.webp")`,
+    "textosBackgroundImage": `url("images/bg/webP/IMG_0092_resized-.webp")`, 
+    "foreignBackgroundImage": `url("images/bg/webP/woman-holding-hands-together-talking-with-counselor.webp")`,
+    "trefoilDivBackgroundImage" : `url("images/bg/webP/Trefoil_knot_arb.webp")`,
   });
   
   console.log(remoteConfig.defaultConfig.welcome_message);
