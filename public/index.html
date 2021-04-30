@@ -32,7 +32,26 @@
 		    <script>
 		      gtag('event', 'conversion', {'send_to': 'AW-989906150/vylPCJyN-_UBEOaJg9gD'});
 		    </script>
-		 <!-- end of Global site tag -->
+		 <!-- end of Global site tag -->]	
+		 <!-- evento de conversão via ligação telefonica -->
+		 <!-- Event snippet for LIgação via Adwords conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+			function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+				window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-677901405/iT0sCM_wko0CEN3on8MC',
+				'event_callback': callback
+			});
+			return false;
+			}
+			</script>
+	
+		 <!-- fim da conversão via ligação telefonica -->
 
 		<title>Dr. Carlos Rocha - Psicanalista, Psicólogo online e presencial </title>
 		<meta charset="utf-8" />

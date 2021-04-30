@@ -2,6 +2,7 @@ console.log("analytics.js is on");
 let date = new Date()
 let time = `${date.getHours()}:${date.getMinutes()}`
 let day = `${date.getDay()}`
+let url = "https://www.psicarlosrocha.com"
 
 //click on whatsapp
 const whatsappButtons = document.querySelectorAll(".whatsapp-cta")
@@ -15,6 +16,7 @@ whatsappButtons.forEach( (button, index) => {
 const directPhone = document.querySelector(".direct-phone")
 directPhone.addEventListener("click", () => {
   analytics.logEvent("phone_click");
+  gtag_report_conversion(url)
 })
 
 //click to send email - works?
