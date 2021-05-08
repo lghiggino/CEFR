@@ -1282,7 +1282,9 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 1em; }
   ul li {
-    padding-left: 0.5em; }
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify; }
   ul.alt {
     list-style: none;
     padding-left: 0; }
@@ -1622,6 +1624,18 @@ button,
   flex-wrap: wrap;
   margin: 0 0 2em -3em;
   width: calc(100% + 3em); }
+  .features article.fullWidth {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 0 3em 3em;
+    position: relative;
+    width: 100%; }
   .features article {
     -moz-align-items: center;
     -webkit-align-items: center;
